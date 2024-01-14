@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
+    <script src="https://kit.fontawesome.com/b31c5de0a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="">
+        <div class="header">
+            <div class="headerup">
+                <nav>
+                    <ul>
+                        <!-- <li><a href="index.html">FIFA.COM</a></li> -->
+                        <li><a href="news.html">NEWS</a></li>
+                        <li><a href="tournaments.html">TOURNAMENTS</a></li>
+                        <li><a href="tickets.html">TICKETS</a></li>
+                        <li><a href="fifaplus.html">FIFA+</a></li>
+                        <li><a href="fifastore.html">FIFA STORE</a></li>
+                        <li><a href="fifainside.html">INSIDE FIFA</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="headerdown">
+                <nav>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="check-menu">
+                            <label for="check-menu" id="menu-btn"> <span class="material-symbols-outlined menu-icone">
+                                    menu
+                                </span></label>
+                            <!-- side-menu -->
+                            <div id="side-menu">
+                                <ul>
+                                    <li><a href="tournaments.html">TOURNAMENTS </a> <span
+                                            class="material-symbols-outlined menuicone ">
+                                            arrow_forward_ios
+                                        </span></li>
+                                    <li><a href="fifaplus.html">WATCH ON FIFA+</a><span
+                                            class="material-symbols-outlined menuicone">
+                                            arrow_forward_ios
+                                        </span></li>
+                                    <!-- <li><a href="">PLAY</a><span class="material-symbols-outlined menuicone">
+                                            arrow_forward_ios
+                                        </span></li> -->
+                                    <!-- <li><a href="">MATCH CENTRE</a><span class="material-symbols-outlined menuicone">
+                                            arrow_forward_ios
+                                        </span></li> -->
+                                    <!-- <li><a href="">MEMBER ASSOCIATIONS</a><span class="material-symbols-outlined menuicone">
+                                            arrow_forward_ios
+                                        </span></li> -->
+                                    <li><a href="fifastore.html">SHOP</a><span
+                                            class="material-symbols-outlined menuicone">
+                                            arrow_forward_ios
+                                        </span></li>
+                                    <li><a href="news.html">NEWS</a><span class="material-symbols-outlined menuicone">
+                                            arrow_forward_ios
+                                        </span></li>
+                                    <li><a href="fifainside.html">INSIDE FIFA</a><span
+                                            class="material-symbols-outlined menuicone">
+                                            arrow_forward_ios
+                                        </span></li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li><a class="logo" href="index.html"><img src="img/fifa.jpg" alt="fifa">
+                            </a></li>
+
+                        <div class="menu-large">
+                            <ul>
+                                <li><a href="tournaments.html">TOURNAMENTS</a></li>
+                                <li><a href="fifaplus.html">WATCH ON FIFA+</a></li>
+                                <li><a href="fifastore.html">SHOP</a></li>
+                                <li><a href="news.html">NEWS</a></li>
+                                <li><a href="fifainside.html">INSIDE FIFA</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                    <ul>
+                        <li>
+
+                            <input type="checkbox" id="search-toggle">
+                            <label for="search-toggle"><span class="material-symbols-outlined ">search</span></label>
+                            <input class="menu-search" placeholder="News, Players, Matches, Videos, etc" type="search">
+
+                        </li>
+
+                        <li>
+
+                            <input type="checkbox" id="lang-toggle">
+                            <label for="lang-toggle"><span class="material-symbols-outlined">language</span></label>
+                            <div class="lang">
+                                <ul>
+                                    <li><a href="">ENGLISH</a></li>
+                                    <li><a href="">FRANCAIS</a></li>
+                                    <li><a href="">DEUTSCH</a></li>
+                                    <li><a href="">ESPAGNOL</a></li>
+                                    <li><a href="">PORTUGUES</a></li>
+                                    <li><a href="">ITALIANO</a></li>
+                                    <li><a href="">INDONESIA</a></li>
+                                    <li><a href="">العربية</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li>
+                            <input type="checkbox" id="person-toggle">
+                            <label for="person-toggle"><span class="material-symbols-outlined">person</span></label>
+                            <div class="person">
+                                <a href="signin.html"> <button class="btn btn-primary"  >SIGN IN</button>  </a>
+                                <p>Dont have an account?</p>
+                                <a href="signup.html"> <button class="btn btn-outline-primary"  >SIGN UP</button>  </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="main ">
+            <div class="row sectiontop ">
+
+                <div class="row g-0 ">
+                    <div class="col-md-4 order-md-1 sectiontopleft  ">
+                        <h3>Experience FIFA's tournaments</h3>
+                        <p>Buy or register interest in tickets and hospitality for upcoming FIFA tournaments</p>
+                        <a href="tickets.html"><button class="btn btn-primary">FIND TICKETS TODAY</button></a>
+                    </div>
+                    <div class="col-md-8 order-md-2 sectiontopright">
+                        <a href="news/Bounou The Best nomination gives me a standing to defend.html"> <img
+                                src="img/Yassine-Bounou-the-Moroccan-goalkeeper.webp"
+                                alt="img">
+                            <div class="sectiontoprighttext">
+                                <h3>INTERVIEW</h3>
+                                <h3>Bounou: The Best nomination gives me a standing to defend</h3>
+                                <p>It's the second year in a row that the Moroccan shot-stopper has been nominated for
+                                    the
+                                    prize.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="space1-2"></div>
+
+
+            <!-- section 2 -->
+            <div class="row section-2 p-5">
+                <div class="row seeall-link">
+                    <h3>LATEST NEWS</h3>
+                    <a href="news.html">SEE ALL</a>
+                </div>
+                <div class="row ">
+                    <div class="col-md-6 section-2-left ">
+                        <a href="news/Zagallo They said it would be impossible to field all those No10s.html">
+
+                            <img src="img/Brazil-coach-Mario-Zagallo.jpg" alt="">
+                            <h3>Zagallo: They said it would be impossible to field all those No10s</h3>
+                            <p>A few years before his passing, Mario Zagallo chattted to FIFA about Brazil's
+                                FIFA
+                                World
+                                Cup triumphs of 1958, 1962 and 1970.</p>
+
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6 snippet">
+                                <a href="news/The story of insatiable Mbappe's sensational 2023.html">
+                                    <img src="img/1790160152.jpg" alt="">
+                                    <h3>The story of insatiable Mbappe's sensational 2023</h3>
+
+                                </a>
+                            </div>
+                            <div class="col-md-6 snippet">
+                                <a href="news/Zagallo They said it would be impossible to field all those No10s.html">
+                                    <img src="img/FWC-Zagallo-060124.jpg" alt="">
+                                    <h3>13 facts which defined legendary Zagallo</h3>
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 snippet">
+                                <a href="news/How magnificent Wiegman continued to shine in 2023.html">
+                                    <img src="img/Australia-v-England-Semi-Final-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023.jpg"
+                                        alt="">
+                                    <h3>How magnificent Wiegman continued to shine in 2023</h3>
+
+                                </a>
+                            </div>
+                            <div class="col-md-6 snippet ">
+                                <a href="news/Spain set to defend their supremacy.html">
+                                    <img src="img/Spain-v-England-Final-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023.jpg"
+                                        alt="">
+                                    <h3>Spain set to defend their supremacy</h3>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section 3 -->
+            <div class="row section-3 mt-2 p-5">
+                <h3>Who will be crowned The Best 2023?</h3>
+                <div class="col-md-3 snippet">
+                    <a href="news/The Best FIFA Women's Player finalists revealed.html">
+                        <img src="img/tbffa23_Womens-player_3840x2160_web.jpg" alt="">
+                        <h3>The Best FIFA Women's Player finalists revealed</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-3 snippet">
+                    <a href="news/The Best FIFA Men's Player finalists revealed.html">
+                        <img src="img/tbffa23_Mens-player_3840x2160_web.jpg" alt="">
+                        <h3>The Best FIFA Men's Player finalists revealed</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-3 snippet">
+                    <a href="news/Top three contenders for FIFA Puskás Award revealed.html">
+                        <img src="img/tbffa23_Puskas_award_3840x2160_web.webp" alt="">
+                        <h3>Top three contenders for FIFA Puskás Award revealed</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-3 snippet">
+                    <a href="news/The Best FIFA Women's Goalkeeper finalists revealed.html">
+                        <img src="img/tbffa2023_Womens-goalkeeper_3840x2160_web.webp" alt="">
+                        <h3>The Best FIFA Women's Goalkeeper finalists revealed</h3>
+
+                    </a>
+                </div>
+            </div>
+            <!-- section 4 -->
+            <div class="row section-4 mt-2 p-5">
+                <h5>Upcoming Tournaments & Events</h5>
+                <div class="col-md-3 snippet">
+                    <a href="news/The Best FIFA Football Awards 2023 How voting works.html">
+                        <img src="img/The-Best-2023-thumbnail.webp" alt="">
+                        <h3>The Best FIFA Women's Goalkeeper finalists revealed</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-3 snippet">
+                    <a href="news/The Best FIFA Football Awards All the winners.html">
+                        <img src="img/u2.png"
+                            alt="">
+                        <h3>FIFA Beach Soccer World Cup UAE 2024 Dubai™</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-3 snippet">
+                    <a href="news/The Best FIFA Men's Player finalists revealed.html">
+                        <img src="img/u3.png"
+                            alt="">
+                        <h3>COMPETITION VENUE CONCEPT</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-3 snippet">
+                    <a href="news/The Best FIFA Women's Player finalists revealed.html">
+                        <img src="img/u4.png"
+                            alt="">
+                        <h3>Host Country 2024: Uzbekistan</h3>
+
+                    </a>
+                </div>
+
+            </div>
+            <!-- section 5 -->
+            <div class="row section-5 mt-2 p-5">
+                <h5>FIFA World Cup Stories</h5>
+                <div class="col-md-3 snippet-vid  ">
+
+                    <video src="vid/🇫🇷 Kylian Mbappe _ FIFA World Cup Goals_part1_2.mp4" controls></video>
+                    <h3>Kylian Mbappe</h3>
+
+                </div>
+                <div class="col-md-3 snippet-vid">
+
+                    <video src="vid/MESSI'S REACTION TO WINNING THE 2022 WORLD CUP.mp4" controls></video>
+                    <h3>Lionel Messi</h3>
+                </div>
+                <div class="col-md-3 snippet-vid">
+
+                    <video src="vid/FIFA WORLD CUP QATAR 2022 - Achraf Hakimi vs Croatia.mp4" controls></video>
+                    <h3>Achraf Hakimi</h3>
+                </div>
+                <div class="col-md-3 snippet-vid">
+                    <video src="vid/Ronaldo May Cry -Cristiano Ronaldo Crying With guts theme[Worldcup 2022].mp4"
+                        controls></video>
+                    <h3>Cristiano Ronaldo</h3>
+                </div>
+
+            </div>
+            <!-- section 6-->
+            <div class="row section-6">
+                <img src="img/FIFA-store-FIFA-Classics-collection-banner.jpg" alt="">
+                <div class="section-6-text">
+                    <h6>FIFA STORE</h6>
+                    <h5>FIFA Store</h5>
+                    <p>Head over to the official FIFA Store to explore our FIFA classics range.</p>
+                    <a href="fifastore.html"><button class="btn btn-outline-primary">EXPLORE NOW</button></a>
+                </div>
+            </div>
+
+            <!-- section 7 fifa store-->
+            <div class="row section-7 mt-2 p-5">
+                <h5>FIFA STORE</h5>
+                <div class="col-md-2 snippet-store">
+                    <a href="">
+                        <img src="img/t1.png" alt="">
+                        <h3>FIFA CLASSICS FRANCE '98 SWEATSHIRT BLUE – MEN'S</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-2 snippet-store">
+                    <a href="">
+                        <img src="img/t2.png" alt="">
+                        <h3>FIFA CLASSICS GERMANY FR '74 RETRO T-SHIRT – MEN'S</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-2 snippet-store">
+                    <a href="">
+                        <img src="img/t3.png" alt="">
+                        <h3>FIFA CLASSICS MEXICO '70 JACKET GREEN– MEN'S</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-2 snippet-store">
+                    <a href="">
+                        <img src="img/t4.png" alt="">
+                        <h3>OFFICIAL ZIDANE SIGNED JERSEY - FRANCE 1998</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-2 snippet-store">
+                    <a href="">
+                        <img src="img/t5.png" alt="">
+                        <h3>FIFA CLASSICS SPAIN '82 POSTER HOODIE – MEN'S</h3>
+
+                    </a>
+                </div>
+                <div class="col-md-2 snippet-store">
+                    <a href="">
+                        <img src="img/t6.png" alt="">
+                        <h3>FIFA CLASSICS USA '94 MASCOT T-SHIRT – MEN'S</h3>
+
+                    </a>
+                </div>
+
+            </div>
+            <!-- <footer></footer> -->
+            <div class="footer">
+                <div class="footer-top d-flex justify-content-between p-2">
+                    <a class="logo" href=""><img src="img/fifa.jpg" alt=""></a>
+                    <ul class="d-flex ">
+                        <li><a href=""><i class="fa-brands fa-twitter twitter-logo"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook-f face-logo"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram insta-logo"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube you-logo"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-tiktok tik-logo"></i></a></li>
+                    </ul>
+                    <ul class="d-flex">
+                        <li><a href=""><img src="img/googlePlay.png" alt=""></a></li>
+                        <li><a href=""><img src="img/appleAppStore.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="footer-but d-flex justify-content-between p-2">
+                    <ul class="d-flex ">
+                        <li><a href="">PRIVACY POLICY</a></li>
+                        <li><a href="">TERMS OF SERVICE</a></li>
+                        <li><a href="">MANAGE COOKIE PREFERENCES</a></li>
+                    </ul>
+                    <p>Copyright © 1994 - 2024 FIFA. All rights reserved. </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
