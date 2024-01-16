@@ -928,6 +928,9 @@ font-size: 1.3rem;
     .space-md-500{
         height: 500px;
     }
+    .footer img{
+        display:none;
+    }
 }
 
 
