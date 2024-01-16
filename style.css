@@ -931,6 +931,9 @@ font-size: 1.3rem;
     .footer img{
         display:none;
     }
+    .section-fifastore-1-right video{
+    width: 100%;
+}
 }
 
 
