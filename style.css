@@ -4,6 +4,12 @@
     
 }
 
+img:hover{
+    scale:0.8;
+    transition:0.4s;
+}
+
+
 .header {
     background-color: #045694;
     height: 100px;
