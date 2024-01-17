@@ -5,7 +5,7 @@
 }
 
 video{
-    /* object-fit: cover; */
+    object-fit: cover; 
 }
 
 img{
@@ -939,7 +939,7 @@ font-size: 1.3rem;
         display:none;
     }
     .section-fifastore-1-right video{
-    width: 100%;
+/*     width: 100%; */
 }
 }
 
